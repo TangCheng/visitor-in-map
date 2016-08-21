@@ -13,7 +13,7 @@ $(function() {
                 id: 'mapbox.streets'
             }).addTo(mymap);
 
-            L.marker([51.5, -0.09]).addTo(mymap);
+            L.marker([data.geo.lat, data.geo.lng]).addTo(mymap);
         }
     });
 });
