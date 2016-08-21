@@ -1,7 +1,18 @@
 # visitor-in-map
 
+> Display Geo Point to Map
 
+
+Setup:
+
+```shell
+npm install
+node index.js
 ```
+
+格式：
+
+```javascript
 {
     "button":2,
     "geo":{
