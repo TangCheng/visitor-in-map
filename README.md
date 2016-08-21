@@ -24,4 +24,4 @@ node index.js
 
 Screenshot:
 
-![Images](./docs/docs/post-data-websocket-map.jpg)
+![Images](./docs/post-data-websocket-map.jpg)
