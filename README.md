@@ -21,3 +21,7 @@ node index.js
     }
 }
 ```
+
+Screenshot:
+
+![Images](./docs/docs/post-data-websocket-map.jpg)
