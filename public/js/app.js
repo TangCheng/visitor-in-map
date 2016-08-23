@@ -5,10 +5,10 @@ $(function() {
 
        $('#result').html(JSON.stringify(data));
         if(data.geo){
-            $('#maparea').html('<div id="mapid" style="width: 600px; height: 400px"></div>')
+            $('#maparea').html('<div id="mapid" style="width: 1366px; height: 600px"></div>')
             var mymap = L.map('mapid');
-            
-            mymap.setView([data.geo.lat, data.geo.lng], 12);
+
+            mymap.setView([data.geo.lat, data.geo.lng], 4);
 
             L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpandmbXliNDBjZWd2M2x6bDk3c2ZtOTkifQ._QA7i5Mpkd_m30IGElHziw', {
                 maxZoom: 18,
